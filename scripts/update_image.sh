@@ -2,7 +2,7 @@
 
 VERSION=$1
 
-sed -i "s|image:.*|image: naveen352/java-demo:$VERSION|g" deploy.yaml
+sed -i "s|image:.*|image: naveen352/java-demo-argocd:$VERSION|g" deploy.yaml
 
 git config user.email "mandhadisagar3023@gmail.com"
 git config user.name "NaveenSagar7"
