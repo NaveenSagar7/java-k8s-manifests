@@ -21,7 +21,7 @@ spec:
       containers:
 
       - name: java-demo
-        image: naveen352/java-demo-argocd:v6
+        image: naveen352/java-demo-argocd:v7
         ports:
         - containerPort: 8081
 
